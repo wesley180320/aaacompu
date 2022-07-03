@@ -2,39 +2,46 @@
 
    
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     background-color: #0a2d4c;
     height: 6em;
     padding: 1em;
     align-items: center;
+    box-shadow: 0 1px 9px rgba(0, 0, 0, 0.12), 0 1px 6px rgba(0, 0, 0, 0.24);
+    
 }
 
 .navbar ul {
 
     display: flex;
     list-style: none;
+    flex-wrap: wrap;
 }
 
 .navbar img {
 
-    width: 100px;
-    height: 80px;
+    width: 110px;
+    height: 90px;
 }
 
 .navbar h1{
     color: #fff;
+    font-weight: 900;;
+   
     
 }
 
 .item_a{
 
     color: #fff;
-    margin-left: 15em;
+    margin-left: 5em;
     text-decoration: none;
+    font-weight: 800;
 }
 
 .item_a:hover{
 
-    color: blue;
+    color:#f6b65d ;
+ 
 
 }

@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Home from "./Pages/Home";
@@ -7,31 +7,26 @@ import Eventos from "./Pages/Eventos";
 import Parceiros from "./Pages/Parceiros";
 
 import NavBar from "./Layout/NavBar";
+import Container from "./Layout/Container";
 function App() {
   return (
-
     <Router>
-      <NavBar/>
-      <Routes>
-        <Route path="/" element={<Home/>}></Route>
-      </Routes>
-
-      <Routes>
-        <Route path="/loja" element={<Loja/>}></Route>
-      </Routes>
-
-      <Routes>
-        <Route path="/eventos" element={<Eventos/>}></Route>
-      </Routes>
-      
-      <Routes>
-        <Route path="/parceiros" element={<Parceiros/>}></Route>
-      </Routes>
-    
+      <NavBar />
+      <Container customClass="min-height" >
+        <Routes>
+          <Route path="/" element={<Home />}></Route>
+        </Routes>
+        <Routes>
+          <Route path="/loja" element={<Loja />}></Route>
+        </Routes>
+        <Routes>
+          <Route path="/eventos" element={<Eventos />}></Route>
+        </Routes>
+        <Routes>
+          <Route path="/parceiros" element={<Parceiros />}></Route>
+        </Routes>
+      </Container>
     </Router>
-
-    
-
   );
 }
 
