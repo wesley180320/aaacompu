@@ -8,6 +8,7 @@ import Parceiros from "./Pages/Parceiros";
 
 import NavBar from "./Layout/NavBar";
 import Container from "./Layout/Container";
+import Footer from "./Layout/Footer";
 function App() {
   return (
     <Router>
@@ -26,6 +27,7 @@ function App() {
           <Route path="/parceiros" element={<Parceiros />}></Route>
         </Routes>
       </Container>
+      <Footer/>
     </Router>
   );
 }

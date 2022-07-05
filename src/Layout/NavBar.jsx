@@ -9,7 +9,6 @@ const NavBar = () =>{
 
         <nav className={styles.navbar}>
 
-        <Link to={"/"}><img src={logo} alt="aaacompu"></img> </Link>
         <h1> AAACOMPU </h1>
 
             <ul>
