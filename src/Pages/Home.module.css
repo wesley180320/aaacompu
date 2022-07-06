@@ -8,12 +8,6 @@
     width: 100%;
 }
 
-.container p{
-    display: flex;
-    margin-left: 80%;
-    font-weight: 900;
-}
-
 .container h1 {
     font-weight: 1000;
     color: #222;
@@ -27,4 +21,24 @@
 .container img {
     padding: 0.5em;
     height: 35em;
+}
+
+@media(max-width: 992px){
+
+    .container{
+
+        margin-top: 20px;
+        flex-wrap: wrap;
+    }
+  
+    .section{
+        width: 10%;
+        display: grid;
+    }
+
+    .section img{
+
+        height: 16em;
+    }
+
 }

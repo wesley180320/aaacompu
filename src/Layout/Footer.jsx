@@ -8,8 +8,8 @@ const Footer = () => {
     return(
         <div className={styles.footer}>
             <ul className={styles.social_list}>
-                <li> <a href="" className={styles.item}><FaFacebook/> </a></li>
-                <li><a href="" className={styles.item}><FaInstagram/></a> </li>
+                <li> <a href="https://www.facebook.com/AtleticaCompu/" className={styles.item}><FaFacebook/> </a></li>
+                <li><a href="https://www.instagram.com/atleticacompu/" className={styles.item}><FaInstagram/></a> </li>
             </ul>
            <p className={styles.copy_right}> <span>AAACOMPU</span> &copy; 2022 </p>
         </div>

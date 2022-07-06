@@ -45,3 +45,20 @@
  
 
 }
+
+@media(max-width: 992px){
+
+    .navbar{
+        display:block;
+        text-align: center;
+    }
+
+    .navbar ul{
+     justify-content: center;
+    }
+
+    .item_a{
+        margin-left: 6px;
+    }
+
+}
