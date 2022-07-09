@@ -1,4 +1,5 @@
 import React from "react";
+import styles from "./Loja.module.css"
 
 
 const Loja = () =>{
@@ -6,8 +7,8 @@ const Loja = () =>{
     return(
 
 
-        <div>
-            <p>loja</p>
+        <div className={styles.container}>
+            <p>Novidades em Breve...</p>
         </div>
 
     )
