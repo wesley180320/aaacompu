@@ -19,7 +19,7 @@
 
 }
 
-@media(min-width:360px){
+@media(max-width:960px){
 
     .container{
         display: flex;
@@ -41,23 +41,3 @@
 
 }
 
-@media (min-width:390px )  {
-
-    .container{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        width: 2000%;
-        height: 650px;
-        background-size: 210%;
-        opacity: 0.5;
-    }
-    
-    .container p{
-        color: rgb(255, 0, 0);
-        font-size:80px;
-        font-weight: 700;
-        margin-left: 20px; 
-    }
-}
