@@ -20,7 +20,7 @@
 
 }
 
-@media(max-width:960px){
+@media(max-width:400px){
 
     .container{
         display: flex;
@@ -35,9 +35,31 @@
 
     .container p{
         color: rgb(255, 0, 0);
-        font-size:70px;
-        font-weight: 700;
-        margin-left: 20px; 
+        font-size:67px;
+        font-weight: 800;
+        margin-left: 5px; 
+    }
+
+}
+
+@media(min-width:412px){
+
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 2000%;
+        height: 700px;
+        background-size: 200%;
+        opacity: 0.5;
+    }
+
+    .container p{
+        color: rgb(255, 0, 0);
+        font-size:80px;
+        font-weight: 790;
+        margin-left: 5px; 
     }
 
 }

@@ -27,15 +27,15 @@
         justify-content: center;
         flex-direction: column;
         width: 2000%;
-        height: 600px;
+        height: 650px;
         background-size: 200%;
         opacity: 0.5;
     }
 
     .container p{
         color: rgb(255, 0, 0);
-        font-size:70px;
-        font-weight: 700;
+        font-size:80px;
+        font-weight: 800;
         margin-left: 20px; 
     }
 
