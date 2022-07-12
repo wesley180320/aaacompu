@@ -8,7 +8,7 @@ const Loja = () =>{
 
 
         <div className={styles.container}>
-            <p>Novidades em Breve...</p>
+            <p>Novidades em breve...</p>
         </div>
 
     )

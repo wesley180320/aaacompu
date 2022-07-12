@@ -1,8 +1,17 @@
+import React from "react"
+import styles from "./Eventos.module.css"
+
+
 const Eventos = () => {
 
     return(
 
-        <p> Eventos</p>
+        <div className={styles.container}>
+
+        <p> Novidades em breve... </p>
+
+        </div>
+     
     )
 
 }

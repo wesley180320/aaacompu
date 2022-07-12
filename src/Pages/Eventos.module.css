@@ -1,4 +1,6 @@
 .container{
+
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -8,7 +10,6 @@
     background-position: center;
     background-size: 85%;
     opacity: 0.5;
-    
 }
 
 .container p{
@@ -40,4 +41,3 @@
     }
 
 }
-
