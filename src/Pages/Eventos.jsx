@@ -8,7 +8,7 @@ const Eventos = () => {
 
         <div className={styles.container}>
 
-        <p> Novidades em breve... </p>
+        <p> Novos eventos em breve... </p>
 
         </div>
      
