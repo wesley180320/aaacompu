@@ -20,7 +20,9 @@
 
 }
 
-@media(max-width:960px){
+
+
+@media(max-width:420px){
 
     .container{
         display: flex;
@@ -39,7 +41,7 @@
         color: rgb(255, 0, 0);
         font-size:80px;
         font-weight: 700;
-        margin-left: 5px; 
+        margin-left: 17px; 
     }
 
 }

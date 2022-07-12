@@ -28,6 +28,31 @@
         justify-content: center;
         flex-direction: column;
         width: 2000%;
+        height: 600px;
+        background-size: 200%;
+        opacity: 0.5;
+    }
+
+    .container p{
+        display: flex;
+        flex-wrap: wrap;
+        color: rgb(255, 0, 0);
+        font-size:85px;
+        font-weight: 700;
+        margin-left: 5px; 
+    }
+
+}
+
+
+@media(max-width:420px){
+
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 2000%;
         height: 650px;
         background-size: 200%;
         opacity: 0.5;
@@ -39,7 +64,7 @@
         color: rgb(255, 0, 0);
         font-size:80px;
         font-weight: 700;
-        margin-left: 5px; 
+        margin-left: 17px; 
     }
 
 }
