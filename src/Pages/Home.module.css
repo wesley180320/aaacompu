@@ -23,6 +23,14 @@
     height: 35em;
 }
 
+.container img:hover{
+
+    width: 50%;
+    height: 40%;
+    transition: 0.8s;
+
+}
+
 @media(max-width: 992px){
 
     .container{
