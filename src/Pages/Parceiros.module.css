@@ -47,10 +47,19 @@
 
 
 
-    .container img{
+    .guarda{
      
         width:390px;
         padding: 80px;
+    }
+
+    .guarda:hover{
+     
+        width: 420px;
+        height: 420px;
+        transition: 0.5;
+
+    
     }
 
     .container section {
@@ -78,10 +87,19 @@
     }
 
 
-    .container img{
+    .guarda{
      
-        width:414px;
+        width:390px;
         padding: 80px;
+    }
+
+    .guarda:hover{
+     
+        width: 420px;
+        height: 420px;
+        transition: 0.5;
+
+    
     }
 
     .container section {
@@ -108,13 +126,21 @@
        
     }
 
-
-    .container img{
+    .guarda{
      
-        width:394px;
+        width:390px;
         padding: 80px;
     }
 
+
+    .guarda:hover{
+     
+        width: 420px;
+        height: 420px;
+        transition: 0.5;
+
+    
+    }
     .container section {
         
         display: flex;
@@ -138,13 +164,20 @@
        
     }
 
-
-    .container img{
+    .guarda{
      
-        width:375px;
+        width:390px;
         padding: 80px;
     }
 
+    .guarda:hover{
+     
+        width: 420px;
+        height: 420px;
+        transition: 0.5;
+
+    
+    }
    
     .container section {
         
@@ -170,15 +203,21 @@
        
     }
 
-
-    .container img{
-        
-        width:415px;
+    .guarda{
+     
+        width:390px;
         padding: 80px;
     }
 
 
+    .guarda:hover{
+     
+        width: 420px;
+        height: 420px;
+        transition: 0.5;
 
+    
+    }
     .container section {
         
         display: flex;
